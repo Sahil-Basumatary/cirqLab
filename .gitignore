@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build outputs
+.next/
+dist/
+build/
+*.egg-info/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.pytest_cache/
+
+# Logs
+*.log
+npm-debug.log*
+
+# ML artifacts
+*.pt
+*.pth
+*.onnx
+wandb/
+mlruns/
+
+# Data (large files)
+data/raw/
+data/processed/
+*.bam
+*.vcf
+*.fastq
+*.gz
+
